@@ -48,7 +48,7 @@ For instance, consider a force `F(x)` applied to an object moving along the `x-a
 ## Graphical Representation
 
 The program includes a graphical representation of the function and the integral area. Here is an example graph: <br/>
-![Graphical Representation](./assets/image4.png)
+![Graphical Representation](./assets/graph_rep.png )
 
 The graph displays the function curve in red, and the shaded area represents the integral of the function over the specified interval.
 
