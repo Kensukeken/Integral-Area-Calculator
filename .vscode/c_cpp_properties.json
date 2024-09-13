@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/MinGW/include",   // or the correct path to your MinGW/LLVM includes
+                "C:/Program Files/LLVM/include" // or the correct path to LLVM includes
+            ],
+            "defines": [],
+            "compilerPath": "C:/MinGW/bin/g++.exe",   // Update this to the correct path
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

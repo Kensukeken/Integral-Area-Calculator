@@ -1,0 +1,13 @@
+#include <fstream>  // For file I/O operations
+
+void saveResults(double result) {
+    std::ofstream outfile("output/example_results.txt");
+    if (outfile.is_open()) {
+        outfile << "Integral Calculation Results\n";
+        outfile << "=============================\n\n";
+        outfile << "Calculated integral area: " << result << std::endl;
+        outfile.close();
+    } else {
+        std::cerr << "Unable to open file for writing results." << std::endl;
+    }
+}

@@ -1,0 +1,16 @@
+Integral Calculation Results
+=============================
+
+Example 1:
+Lower limit (a): 0
+Upper limit (b): 1
+Number of intervals: 10
+Calculated integral area: 0.3333
+
+Example 2:
+Lower limit (a): 1
+Upper limit (b): 2
+Number of intervals: 20
+Calculated integral area: 2.3333
+
+Note: Results are approximations based on the Trapezoidal Rule.
